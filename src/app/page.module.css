@@ -1,0 +1,19 @@
+@keyframes smoothHeartbeat {
+
+    0%,
+    100% {
+        transform: scale(1);
+        animation-timing-function: ease-in-out;
+    }
+
+    50%,
+    50% {
+        transform: scale(1.1);
+        animation-timing-function: ease-in-out;
+    }
+
+}
+
+.animateHeartbeat {
+    animation: smoothHeartbeat 4.5s infinite;
+}
